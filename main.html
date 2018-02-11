@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <style>
 </style>
-<svg width="1800" height="900"></svg>
+<svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-color.v1.min.js"></script>
 <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
@@ -18,9 +18,9 @@
   var cx = width / 2,
       cy = height / 2;
 
-  var nodeRadius = 30;
+  var dist = 35;
   var pointNumber = 20
-  var circleRadius = circleRadius(pointNumber, 50);
+  var circleRadius = circleRadius(pointNumber, dist);
 
   var points = [];
   var theta = 360 / pointNumber;
